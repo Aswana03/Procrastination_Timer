@@ -16,23 +16,32 @@
 The Procrastination Timer is an interactive alarm clock designed to prevent users from hitting the snooze button by requiring them to complete engaging tasks to silence the alarm. Combining creativity and fun, it offers various mental and physical challenges, ensuring a more stimulating wake-up experience.
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+The Procrastination Timer Alarm Clock humorously addresses the common and often ridiculous habit of hitting the snooze button and going back to sleep instead of starting the day. By incorporating interactive tasks and challenges that users must complete to turn off the alarm, it tackles the absurdity of our reluctance to get out of bed. The project embraces creativity and fascination, transforming a mundane routine into a playful engagement that highlights the lengths people go to avoid waking up—essentially turning the act of procrastination itself into a comical challenge.
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+The Procrastination Timer Alarm Clock takes a fun and lighthearted approach to solving the snooze-button dilemma. Instead of simply sounding an alarm, it turns waking up into an entertaining game. Users are greeted with quirky tasks—like solving a riddle, doing a quick dance, or even completing a silly challenge—that must be tackled to silence the alarm. This playful interaction not only makes getting out of bed a bit more enjoyable but also sparks laughter and creativity, transforming the dreaded morning routine into a delightful adventure. By combining humor with a bit of a wake-up challenge, we're turning procrastination into a fun opportunity to kickstart the day!
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
+- Arduino IDE
+- Library ESP32
+- ESP32 NOW
+- WIFI.h
+- Arduino.h
 
 For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
+- ESP32
+- Arduino Nano
+- Ultrasonic sensors
+- L298 Motor Driver and Motors
+- REAL TIME CLOCK
+- LCD display
+- MP3 Module
+- Speaker
+- Piezoelectric sensor
+- Passive INfrared sensor
+
 
 ### Implementation
 For Software:
