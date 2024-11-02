@@ -56,21 +56,21 @@ For Software:
 # Screenshots (Add at least 3)
 !![image](https://github.com/user-attachments/assets/c1d6904c-dfc5-49f0-9bb6-f5c93aae6ad4)
 
-(Add screenshot 1 here with proper name)
+
 Setting the alarm time('ON' indicates that the alarm is set)
 
 !![image](https://github.com/user-attachments/assets/42a94a09-6425-4c7f-8f36-88669b201e4f)
 
-(Add screenshot 2 here with proper name)
+
 When the time ticks,the signal is high.(The led is given as an indicator to recognize the high signal)
 
 !![image](https://github.com/user-attachments/assets/c3354ace-2058-416d-b5d8-1fc24f5ef9c1)
-(Add screenshot 3 here with proper name)
+
 ULT Sensor counting the number of pushups until the target
 
 # Diagrams
 !![image](https://github.com/user-attachments/assets/fc656ff5-872a-4303-b8e1-01ecd00a12a2)
-(Add your workflow/architecture diagram here)
+
 1. ESP32:
 The ESP32 appears to be the main microcontroller, connected to various components.
 It controls two ultrasonic sensors (labeled "ULT") for distance measurement or object detection.
@@ -104,7 +104,7 @@ For Hardware:
 
 # Build Photos
 !![image](https://github.com/user-attachments/assets/7f7c6eb1-f0f3-488d-ae0e-1b17255128d6)
-(Add photo of your components here)
+
 - ESP32
 - Arduino Nano
 - Ultrasonic sensors
