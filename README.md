@@ -39,8 +39,7 @@ For Hardware:
 - LCD display
 - MP3 Module
 - Speaker
-- Piezoelectric sensor
-- Passive Infrared sensor
+- Passive Infrared sensor(PIR)
 
 
 ### Implementation
@@ -63,12 +62,34 @@ Setting the alarm time('ON' indicates that the alarm is set)
 (Add screenshot 2 here with proper name)
 When the time ticks,the signal is high.(The led is given as an indicator to recognize the high signal)
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+!![image](https://github.com/user-attachments/assets/c3354ace-2058-416d-b5d8-1fc24f5ef9c1)
+(Add screenshot 3 here with proper name)
+ULT Sensor counting the number of pushups until the target
 
 # Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
+!![image](https://github.com/user-attachments/assets/fc656ff5-872a-4303-b8e1-01ecd00a12a2)
+(Add your workflow/architecture diagram here)
+1. ESP32:
+The ESP32 appears to be the main microcontroller, connected to various components.
+It controls two ultrasonic sensors (labeled "ULT") for distance measurement or object detection.
+2. L298 Motor Driver:
+The ESP32 is connected to an L298 motor driver, which controls two motors (labeled "M1" and "M2").
+This setup likely enables movement or rotation.
+3. L298 Motor Driver:
+The ESP32 is connected to an L298 motor driver, which controls two motors (labeled "M1" and "M2").
+This setup likely enables movement or rotation.
+4. Arduino Nano:
+The Arduino Nano works with the ESP32, connected to a Real-Time Clock (RTC) module for timekeeping and an LCD for display.
+Push buttons are connected with the arduino nano for the purpose of time setting.
+5. MP3 Module and Speaker:
+An MP3 module is linked to the ESP32, allowing audio output, which is played through the connected speaker. This is used for alarms and voice prompts.
+6. Arduino Nano:
+The Arduino Nano works with the ESP32, connected to a Real-Time Clock (RTC) module for timekeeping and an LCD for display.
+Push buttons are connected with the arduino nano for the purpose of time setting.
+7. ESP32 CAM:
+The ESP32 CAM module is included for image or video capture, adding a visual element to the project for internal monitoring.
+8. Additional ESP32 with PIO:
+Another ESP32 unit is connected to a "PIO" and an additional ultrasonic sensor. The purpose of the PIO(Piezoelectric sensor is to detect the motion of human ie;whether he is awake or not
 
 For Hardware:
 
@@ -80,8 +101,17 @@ For Hardware:
 *Add caption explaining the schematic*
 
 # Build Photos
-![Components](Add photo of your components here)
-*List out all components shown*
+!![image](https://github.com/user-attachments/assets/7f7c6eb1-f0f3-488d-ae0e-1b17255128d6)
+(Add photo of your components here)
+- ESP32
+- Arduino Nano
+- Ultrasonic sensors
+- L298 Motor Driver and Motors
+- REAL TIME CLOCK
+- LCD display
+- MP3 Module
+- Speaker
+- Passive Infrared sensor
 
 ![Build](Add photos of build process here)
 *Explain the build steps*
@@ -98,9 +128,9 @@ For Hardware:
 [Add any extra demo materials/links]
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+- Akshay Nandan P: Software codes for communication for ESP32 and ULT sensors.
+- Aswana N: Software codes for Arduino nano for interfacing mo3 module.
+- Abhishek: Software and hardware including soldering and assembling.
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
