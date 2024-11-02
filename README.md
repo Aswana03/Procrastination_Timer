@@ -55,11 +55,13 @@ For Software:
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+!![image](https://github.com/user-attachments/assets/5366cf65-492d-45a6-9c7d-0ea9ae3d633c)
+(Add screenshot 1 here with proper name)
+Setting the alarm time('ON' indicates that the alarm is set)
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+!![image](https://github.com/user-attachments/assets/c5757f77-dc45-46ad-a32e-2125b7a2725a)
+(Add screenshot 2 here with proper name)
+When the time ticks,the signal is high.(The led is given as an indicator to recognize the high signal)
 
 ![Screenshot3](Add screenshot 3 here with proper name)
 *Add caption explaining what this shows*
