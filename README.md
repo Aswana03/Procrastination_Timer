@@ -54,11 +54,13 @@ For Software:
 For Software:
 
 # Screenshots (Add at least 3)
-!![image](https://github.com/user-attachments/assets/5366cf65-492d-45a6-9c7d-0ea9ae3d633c)
+!![image](https://github.com/user-attachments/assets/c1d6904c-dfc5-49f0-9bb6-f5c93aae6ad4)
+
 (Add screenshot 1 here with proper name)
 Setting the alarm time('ON' indicates that the alarm is set)
 
-!![image](https://github.com/user-attachments/assets/c5757f77-dc45-46ad-a32e-2125b7a2725a)
+!![image](https://github.com/user-attachments/assets/42a94a09-6425-4c7f-8f36-88669b201e4f)
+
 (Add screenshot 2 here with proper name)
 When the time ticks,the signal is high.(The led is given as an indicator to recognize the high signal)
 
