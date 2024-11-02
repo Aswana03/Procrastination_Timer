@@ -40,7 +40,7 @@ For Hardware:
 - MP3 Module
 - Speaker
 - Piezoelectric sensor
-- Passive INfrared sensor
+- Passive Infrared sensor
 
 
 ### Implementation
