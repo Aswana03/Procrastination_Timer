@@ -1,19 +1,19 @@
 <img width="1280" alt="readme-banner" src="https://github.com/user-attachments/assets/35332e92-44cb-425b-9dff-27bcf1023c6c">
 
-# [Project Name] 🎯
+# Procrastination_Timer 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: Triple AAA
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Team Lead: Akshay Nandan P - NSSCE,Palakkad
+- Member 2: Abhishek - NSSCE,Palakkad
+- Member 3: Aswana N - NSSCE,Palakkad
 
 ### Project Description
-[2-3 lines about what your project does]
+The Procrastination Timer is an interactive alarm clock designed to prevent users from hitting the snooze button by requiring them to complete engaging tasks to silence the alarm. Combining creativity and fun, it offers various mental and physical challenges, ensuring a more stimulating wake-up experience.
 
 ### The Problem (that doesn't exist)
 [What ridiculous problem are you solving?]
