@@ -118,13 +118,40 @@ For Hardware:
 ![Build](Add photos of build process here)
 *Explain the build steps*
 
-![Final](Add photo of final product here)
+!![image](https://github.com/user-attachments/assets/822f810b-3a8e-41ea-ab5a-519111beafa7)
+![image](https://github.com/user-attachments/assets/de5633c1-f5da-4f2e-8617-cc3314e45c87)
+![image](https://github.com/user-attachments/assets/cf401485-1c7f-47fb-b156-7a40b0eef679)
+
+
+(Add photo of final product here)
 *Explain the final build*
 
 ### Project Demo
 # Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
+https://youtu.be/59MHgoTaY3M?si=hR2Q_TB834Ssl0Zk
+1. ESP32:
+The ESP32 appears to be the main microcontroller, connected to various components.
+It controls two ultrasonic sensors (labeled "ULT") for distance measurement or object detection.
+2. L298 Motor Driver:
+The ESP32 is connected to an L298 motor driver, which controls two motors (labeled "M1" and "M2").
+This setup likely enables movement or rotation.
+3. L298 Motor Driver:
+The ESP32 is connected to an L298 motor driver, which controls two motors (labeled "M1" and "M2").
+This setup likely enables movement or rotation.
+4. Arduino Nano:
+The Arduino Nano works with the ESP32, connected to a Real-Time Clock (RTC) module for timekeeping and an LCD for display.
+Push buttons are connected with the arduino nano for the purpose of time setting.
+5. MP3 Module and Speaker:
+An MP3 module is linked to the ESP32, allowing audio output, which is played through the connected speaker. This is used for alarms and voice prompts.
+6. Arduino Nano:
+The Arduino Nano works with the ESP32, connected to a Real-Time Clock (RTC) module for timekeeping and an LCD for display.
+Push buttons are connected with the arduino nano for the purpose of time setting.
+7. ESP32 CAM:
+The ESP32 CAM module is included for image or video capture, adding a visual element to the project for internal monitoring.
+8. Additional ESP32 with PIO:
+Another ESP32 unit is connected to a "PIO" and an additional ultrasonic sensor. The purpose of the PIO(Piezoelectric sensor is to detect the motion of human ie;whether he is awake or not
+
+
 
 # Additional Demos
 [Add any extra demo materials/links]
